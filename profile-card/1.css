@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.stylenav{
+    position: relative;
+    left: 65%;
+display: inline-block;
+white-space: 50px;
+}
+.stylenav ul{
+    list-style: none;
+    display: flex;
+    margin-right:  50px; 
+
+}
+.stylenav ul .il{
+display: inline-block;
+position: relative;
+
+}

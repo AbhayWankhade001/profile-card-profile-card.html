@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap');
+
+body{
+    font: 18px "M PLUS Rounded",sans-serif;
+    color: black;
+    min-height: fit-content;
+    padding: unset;
+    display: inline-block;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    align-items: flex-start;
+    
+    position: relative;
+    left: 300px;
+    top: 15px;
+}
+
+
+
+body::before{
+    content: '';
+    position: fixed;
+    inset: 0;
+z-index: -1;
+pointer-events: none;
+background: url("01.jpg") no-repeat;
+
+background-size: cover;
+
+}
+
+.profile-card {
+    margin-left: 25%;
+    background: rgba(255, 255, 255, 0.48);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.9px);
+    -webkit-backdrop-filter: blur(3.9px);
+    border: 1px solid rgba(255, 255, 255, 0.92);
+    width: max-content;
+    height: 650px;
+}
+
+.profile-img img{
+    border-radius: 50%;
+    height: 25%;
+    width: 25%;
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    left: 170px;
+    right: 155px;
+}
+
+.profile-info .heading{
+    position: relative;
+    left: 82px;
+    right: 63px;
+    height: 201px;
+    width: 70%;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 1px;
+}
+.work-profession{
+    display: block;
+    padding-left: 34px;
+    padding-top: 5px;
+}
+.work-profession p{
+    display: inline-block;
+    padding-left: 30px
+}
+
+.location{
+    display: inline-block;
+    position: relative;
+    right: -2px;
+    top: 7px;
+    top: 0px;
+}
+
+.soical-media-icon img{
+    width: 55px;
+    height: 55px;
+    display: flex;
+    position: relative;
+    top: -165px;
+}
+.instagram img{
+    width: 55px;
+    height: 55px;
+    display: inline-block;
+ }
+ .soical-media-icon .twitter img{
+    width: 55px;
+    height: 55px;
+    display: inline-block;
+}
+
+.soical-media-icon .linkedin img{
+    width: 55px;
+    height: 55px;
+    display: inline-block;
+}
+.github img{
+    width: 55px;
+    height: 55px;
+    display: inline-block;
+}
+
+
+@media only screen and (max-width:300px){
+    .profile-card {
+        position: fixed;
+    
+        width: 258px;
+        height: 445px;
+        left: 8%;
+        top: 10%;
+    }
+}
